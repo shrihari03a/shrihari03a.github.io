@@ -1,0 +1,17 @@
+title: Shrihari's Blog
+email: your-email@example.com
+description: >-
+  Personal blog inspired by Karpathy's minimalist style.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://shrihari03a.github.io" # the base hostname & protocol for your site
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude these files from production site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
